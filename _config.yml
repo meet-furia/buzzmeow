@@ -7,7 +7,6 @@ baseurl: ""                   # leave empty for root domain
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
@@ -23,7 +22,7 @@ paginate_path: "/page:num/"
 # Author info
 author:
   name: "BuzzMeow Team"
-  avatar: "/assets/images/avatar.png" # optional
+  avatar: "/assets/images/avatar.png" # optional (remove if no image yet)
   bio: "We curate top stories from Reddit & across the web."
   location: "Worldwide"
   links:
@@ -50,5 +49,5 @@ defaults:
       author_profile: true
 
 # Minimal Mistakes theme settings
-minimal_mistakes_skin: "default"   # other options: air, dark, neon, dirt, sunrise, etc.
+minimal_mistakes_skin: "default"   # skins: air, aqua, contrast, dark, dirt, neon, sunrise, etc.
 search: true
