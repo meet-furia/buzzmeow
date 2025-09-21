@@ -52,13 +52,14 @@ defaults:
 minimal_mistakes_skin: "default"   # skins: air, aqua, contrast, dark, dirt, neon, sunrise, etc.
 search: true
 
-# Navigation
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Contact"
-    url: /contact/
-  - title: "Blog"
-    url: /blog/
+# Navigation (Minimal Mistakes expects "main")
+navigation:
+  main:
+    - title: "Home"
+      url: /
+    - title: "About"
+      url: /about/
+    - title: "Contact"
+      url: /contact/
+    - title: "Blog"
+      url: /blog/
