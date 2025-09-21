@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Contact - BuzzMeow</title></head>
+<body>
+  <h1>Contact Us</h1>
+  <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
+  <a href="index.html">⬅ Back to Home</a>
+</body>
+</html>
+
